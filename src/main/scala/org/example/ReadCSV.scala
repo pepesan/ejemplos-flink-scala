@@ -68,8 +68,8 @@ object ReadCSV {
       println(item)
       item
     })
-    //println(flatted.collect()(1))
-    val filtered = flatted.filter(_(1).toFloat< 300.0)
+    println(flatted.collect()(1))
+    val filtered = flatted.filter(_(1).toFloat< 35.0)
     println(filtered.count())
     // execute program
     //env.execute("Flink Scala API Skeleton")
